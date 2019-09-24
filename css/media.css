@@ -1,0 +1,232 @@
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.phone {
+		margin-left: 0;
+	}
+	
+	.menu__link a {
+		font-size: 15px;
+	}
+
+	.gallery__images {
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	.gallery__images img {
+		width: 85%;
+	}
+}
+
+
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+
+	.service {
+		margin-bottom: 40px;
+	}
+	
+	.advant {
+		padding-bottom: 24px;
+	}
+	
+	.mission__title {
+		margin-top: 20px;
+	} 
+
+	.direct__line {
+		width: 100%;
+	}
+
+	.direct__link br {
+		display: none;
+	}
+
+	.direct {
+		align-items: center;
+	}
+
+	.footer__logo {
+		top: 0;
+	}
+
+	.footer__logo {
+		display: block;
+		text-align: center;
+	}
+
+	.footer__logo img {
+		max-width: 100%;
+	}
+
+	.gallery__images {
+		margin-bottom: 30px;
+	}
+	.company__menu {
+		justify-content: space-between;
+	}
+
+
+}
+/* 576 - 768 px */
+
+@media screen and (max-width: 768px) {
+		
+	.details__block {
+		width: unset;
+		margin-left: 0;
+	}
+
+	.details {
+		flex-direction: column;
+	}
+	
+	.submenu__title {
+		font-size: 17px;
+	}
+
+	.footer__block {
+		margin-top: 30px;
+    	margin-left: 172px;
+	}
+
+	.foto__title {
+		text-align: center;
+	}
+	
+	.company__menu {
+	    flex-direction: column;
+    	align-items: center;
+	} 
+
+	.company__list {
+		margin-bottom: 20px;
+	}
+
+	.company__link {
+	    padding: 10px 17px 10px 10px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.phone {
+		margin: 0 auto;
+	}
+
+	h1{
+		font-size: 38px;
+	}
+
+	.wrap {
+		width: auto;
+	}
+
+	.footer__logo {
+		position: relative;
+	}
+
+	.footer__text, .footer__address {
+		text-align: center;
+	}
+
+	.footer__block {
+		margin: 0;
+	    display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.footer__quote {
+		display: block;
+		text-align: center;
+	}
+
+	.fa-phone:before {
+    margin-right: 5px;
+	}
+	.phone {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.menu-opened {
+		align-items: center;
+	}
+	
+	.menu-btn {
+	    margin: 0 auto;
+   	 	margin-top: 15px;
+	}
+
+	.footer__phone {
+	    margin-top: 20px;
+	}
+	.company__title{
+		text-align: center;
+    	margin-bottom: 25px;
+	}
+
+	.company {
+	    padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.ovverun__title {
+		text-align: center;
+		font-size: 25px;
+	}
+	
+	.ovverun__text {
+		margin-bottom: 25px;
+	}
+
+	.submenu__wrap {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    margin: 0 auto;
+	    margin-bottom: 40px;
+	} 
+
+	.request {
+			width: 290px;
+		    padding: 33px 28px 32px 29px
+	}
+
+	.box-modal {
+		width: 100%;
+		padding: 0;
+	}
+
+	.form input, .btn {
+		width: 218px;
+	}
+
+	.box-modal_close{
+	    right: 13px;
+    	top: 11px;
+	}
+
+	.logo {
+		text-align: center;
+    	display: block;
+	}
+
+	.menu-btn {
+		margin: 0;
+		margin-left: auto;
+	}
+
+	.links {
+		justify-content: center;
+	}
+
+	.scale__img {
+		margin-bottom: 15px;
+	}
+	
+
+}
